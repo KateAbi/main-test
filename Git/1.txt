@@ -1,0 +1,20 @@
+git checkout -b dev
+Перехожу в ветку dev
+
+touch Readme.md
+Создаю файл "Readme.md"
+
+nano Readme.md
+Захожу в текстовый редактор nano и добавляю "### May be in future"
+
+git add Readme.md 
+Добавляю файл в ожидание коммита
+
+git commit -m "added Readme.md"
+Добавляю файл в коммит
+
+git remote add origin git@github.com:KateAbi/test.git
+Добавила удаленный репозиторий
+
+git push origin dev
+Отправила изменения в удаленный репозиторий

@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <style>
+        h1{
+            font-family: system-ui;
+        }
+        label, input {
+            font-family: system-ui;
+            font-size: 18px;
+            margin: 5px;
+        }
+        label {
+            background-color: yellow;
+        }
+    </style>
+    <h1>Login</h1>
+    <form action="/my-login-form-page" method="post">
+        <ul>
+            <li>
+                <label for="mail">E-mail:</label>
+                <input type="text" id="mail" name="user_email">
+            </li>
+            <li>
+                <label for="password">Password:</label>
+                <input type="text" id="password" name="user_password">
+            </li>
+        </ul>
+    </form>
+
+</body>
+</html>

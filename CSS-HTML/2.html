@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <style>
+        .modal {
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            left: 50%;
+            right: 50%;
+            margin-left: -200px;
+            margin-top: 160px;
+        }
+        .modal__content {
+            width: 100%;
+            max-width: 500px;
+            padding: 50px;
+            background: #f9f9f9;
+            border-radius: 3px;
+            position: relative;
+            box-shadow: 0 5px 15px black;
+        }
+
+        .modal__title {
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            margin: 0 0 15px;
+        }
+
+        .modal__description {
+            font-size: 1.125rem;
+        }
+    </style>
+    <div class="modal">
+        <div class="modal__content">
+            <h1 class="modal__title">Модальное окно</h1>
+            <p class="modal__description">Всем привет!</p>
+            <button><p>И тебе привет!</p></button>
+        </div>
+    </div>
+</body>
+</html>

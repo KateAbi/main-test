@@ -1,0 +1,2 @@
+$ grep 404 /var/logs/access.log
+# Поиск строки '404' в файле 'access.log'

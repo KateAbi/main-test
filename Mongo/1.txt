@@ -1,0 +1,1 @@
+db.posts.find().skip(5).limit(5)

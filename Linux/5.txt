@@ -1,0 +1,2 @@
+$ ln -s html access.log
+# Делаю символьную ссылку 'access.log' в папке 'html'

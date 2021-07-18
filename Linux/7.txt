@@ -1,0 +1,11 @@
+$ touch /var/www/html/503.html
+# Создаю новый файл '503.html' в папке 'html'
+
+$ nano 503.html 
+# Открываю текстовый редактор nano и записываю туда: 
+<html>
+    <head>
+        <title>503</title>
+    </head>
+</html>
+Сохраняю, закрываю.

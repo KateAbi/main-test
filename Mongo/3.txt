@@ -1,0 +1,10 @@
+db.posts.insertOne(
+{
+  "properties": {
+    "title": "Wow",
+    "content": "Today I was accepted for an internship at DevIT. I'm so damn glad!",
+    "author": "Kate Abi",
+    "like": 16,
+    "dislike": 0
+  }
+})
